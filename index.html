@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Christmas And New Year Gift</title>
+    <link rel="icon" type="image/png" href="logo.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="root">
+        <div class="flex min-h-screen">
+            <div class="relative min-h-screen overflow flex ">
+                <div class="padlr container padtb" id="mainModal">
+                    <div class="text-center mb-16">
+                        <h1>
+                            Send <span>Christmas</span> And <Span>Newyear</Span> Gift </h1>
+                            <div class="flex-2 gap">
+                                <button class="hover:bg btn">No</button>
+                                <button class="hover:bg btn" id="yesBtn">Yes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fixed flex" id="modal">
+                    <div class="det-cont relative">
+                        <button class="icon-close" id="closeBtn">
+                            <img src="icon.close.svg" alt="">
+                        </button>
+                        <h2 class="acct-det gap">
+                            Account Details
+                        </h2>
+                        <div class="space-y-4">
+                            <div class="flex justify-btw">
+                                <div class="flex items-center gap-2">
+                                    <img src="card.svg" class="hght-5" alt="">
+                                    <p class="text-gray-700">Account Number:</p>
+                                </div>
+                                <div class="flex gap-2">
+                                    <span class="font-medium">7011750735</span>
+                                    <button>
+                                        <img src="clipboard.svg" class="hght-5"  id="copyBtn" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="flex justify-btw">
+                                <div class="flex gap-2">
+                                    <img src="piggy.svg" class="hght-5"  alt="">
+                                    <p class="text-gray-700">Bank Name:</p>
+                                </div>
+                                <div class="flex gap-2">
+                                    <span class="font-medium">Opay</span>
+                                    <button>
+                                        <img src="clipboard.svg" class="hght-5" id="copyBtn"  alt="">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="flex justify-btw">
+                                <div class="flex justify-btw gap-2">
+                                    <img src="profile.svg" alt="">
+                                    <span class="font-medium">Abimbola Pelumi</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn2" id="sentBtn">Sent</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
